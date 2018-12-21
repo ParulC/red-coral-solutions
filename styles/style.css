@@ -1,0 +1,13 @@
+/*General*************************/
+body {
+    font-family:sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+.flex-container {
+  display: flex;
+}
+
