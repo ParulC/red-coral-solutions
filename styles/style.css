@@ -11,3 +11,11 @@ img {
   display: flex;
 }
 
+.webdev p{
+	width: 50%;
+}
+
+.webdev img{
+	width: 50%;
+}
+
