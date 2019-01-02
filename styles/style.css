@@ -1,21 +1,58 @@
-/*General*************************/
+/****General****/
+/*Border-box*/
+* { 
+		-moz-box-sizing: border-box; 
+		-webkit-box-sizing: border-box; 
+		box-sizing: border-box; 
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 body {
     font-family:sans-serif;
 }
 
 img {
-	width: 100%;
+	max-width: 100%;
 }
 
-.flex-container {
-  display: flex;
+/****Wrapper****/
+.wrapper {
+	width: 75%;
+	margin: 0 auto;
 }
 
-.webdev p{
+
+/****Navigation Bar****/
+.logo a {
+	text-decoration: none;
+}
+
+/****Hero Image****/
+.heroImage{
+/*Hero image set as background*/
+	background: url(../images/1600x500.png);
+	height: 70vh;
+	max-width: 100%;
+   	background-size: cover;
+}
+
+/****Section layout****/
+h2, h3 {
+	text-align: center;
+}
+
+.services_text{
 	width: 50%;
+	margin: 2.5%;
 }
 
-.webdev img{
+.services_img{
 	width: 50%;
+	margin: 2.5%;
+	text-align: center;
 }
 
