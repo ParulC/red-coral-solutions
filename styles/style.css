@@ -27,8 +27,13 @@ img {
 
 
 /****Navigation Bar****/
+nav {
+	padding: 10px 2% 10px 2%; 
+}
+
 .logo a {
 	text-decoration: none;
+	color: red;
 }
 
 /****Hero Image****/
@@ -56,3 +61,48 @@ h2, h3 {
 	text-align: center;
 }
 
+/****Footer****/
+footer {
+	background: #262626;
+	color: #D1D4D7;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer-left {
+	width: 50%;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin: auto 0;		
+}
+
+.footer-right {
+	width: 50%;
+	padding-right: 5%;
+	padding-left: 5%;
+	text-align: right;
+	margin: auto 0;		
+}
+
+.footer-full {
+	width: 100%;
+	padding-right: 5%;
+	padding-left: 5%;
+	text-align: center;
+}
+
+footer a {
+	color: white;
+	margin-left: 2%;
+	vertical-align: middle;	
+}
+
+footer .fa {
+	background: #404040;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+}
