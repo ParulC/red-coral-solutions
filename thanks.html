@@ -20,9 +20,26 @@
       </nav>
     </header>
   	<main>
-  		<div>
-  			<h2>Thanks!</h2>
-  			<p>Thanks for contacting us. We'll get back to you very soon.</p>
+		<div id="form-wrapper">
+  			<p>Thanks for contacting us! We'll get back to you very soon.</p>
+			<h2>Contact Us</h2>
+			<form method="post" action="http://www.focuspocus.io/magic/hello@redcoralsolutions.com">
+			    <div class="field flex-container">
+			        <label for="name">Full Name:</label>
+			        <input type="text" id="name" name="fullName" required>
+			    </div>
+			    <div class="field flex-container">
+			        <label for="email">Email:</label>
+			        <input type="email" id="email" name="email" required>
+			    </div>
+			    <div class="field flex-container">
+			        <label for="message">Message:</label>
+			        <textarea id="message" name="message" required></textarea>
+			    </div>
+			    <div class="button-row">
+			        <button type="submit">Send Form</button>
+			    </div>
+			</form>
   		</div>
   	</main>
     <footer>
