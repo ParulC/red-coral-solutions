@@ -58,19 +58,24 @@ nav {
 	height: 80vh;
 	max-width: 100%;
    	background-size: cover;
+
+/*Flex box for hero text*/
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+/*Text style - centering*/
+	text-align: center; 
 }
 
 .heroText {
-	text-align: center;
-	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-  	color: white;
+	padding: 10%;
 }
 
 .heroText h2 {
 	color: white;
+	line-height: 200%;
+	font-size: 3em;
 }
 
 /****Section layout****/
