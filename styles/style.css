@@ -19,6 +19,19 @@ img {
 	max-width: 100%;
 }
 
+h2 {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: #e60000;
+	font-size: 200%;
+}
+
+h3 {
+	text-align: center;
+	font-size: 150%;
+}
+
 /****Wrapper****/
 .wrapper {
 	width: 75%;
@@ -35,7 +48,7 @@ nav {
 
 .logo a {
 	text-decoration: none;
-	color: red;
+	color: #e60000;
 }
 
 .menu ul {
@@ -54,7 +67,7 @@ nav {
 /****Hero Image****/
 .heroImage{
 /*Hero image set as background*/
-	background: url(../images/hero_image.jpg);
+	background: url(../images/rcs_hero_image.jpg);
 	height: 80vh;
 	max-width: 100%;
    	background-size: cover;
@@ -68,36 +81,44 @@ nav {
 	text-align: center; 
 }
 
-.heroText {
-	padding: 10%;
-}
 
 .heroText h2 {
 	color: white;
 	line-height: 200%;
-	font-size: 3em;
+	font-size: 250%;
+	text-shadow: 1px 1px 2px black;
+}
+
+
+.heroImageButton {
+	width: 30%;
+
+	/*Padding and margins*/
+	margin: 0 auto;
+	padding: 2.5% 5% 2.5% 5%;
+
+	/*Border*/
+	border: 3px solid black;
+
+	/*Background color*/
+	background-color: #F6F6F6;
+	opacity: 0.9;
+
+	/*Text style*/
+	color: black;
+    text-decoration: none;
+    font-size: 1.4em;
 }
 
 /****Section layout****/
-h2, h3 {
-	text-align: center;
-	color: #262626;
-}
-
-h2 {
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
-
-.services_text{
+.services_left{
 	width: 50%;
-	margin: 2.5%;
+	margin: 2.5% 2.5% 5% 0;
 }
 
-.services_img{
+.services_right{
 	width: 50%;
-	margin: 2.5%;
-	text-align: center;
+	margin: 2.5% 0 5% 2.5%;
 }
 
 /****Footer****/
@@ -194,9 +215,10 @@ button {
   border-radius: 3px;
   border: none;
   font-size: 1rem;
-  padding: 0.5rem 0.8em;
-  background: #990000;
-  border-bottom: 1px solid #498b50;
+  padding: 0.8rem 1.5em;
+  background: #e60000;
+  border-bottom: 1px solid #330000;
+  border-right: 1px solid #330000;
   color: white;
   font-weight: bold;
   text-align: center;
