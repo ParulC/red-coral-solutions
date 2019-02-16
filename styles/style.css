@@ -11,10 +11,7 @@
   justify-content: space-between;
 }
 
-body {
-  /*  font-family:sans-serif;
- */}
-;
+
 img {
 	max-width: 100%;
 }
@@ -49,6 +46,7 @@ nav {
 .logo a {
 	text-decoration: none;
 	color: #e60000;
+	font-size: 1.2rem;
 }
 
 .menu ul {
@@ -111,14 +109,32 @@ nav {
 }
 
 /****Section layout****/
-.services_left{
-	width: 50%;
-	margin: 2.5% 2.5% 5% 0;
-}
+	.services_left{
+		margin: 2.5% 2.5% 5% 0;
+	}
 
-.services_right{
-	width: 50%;
-	margin: 2.5% 0 5% 2.5%;
+	.services_right{
+		margin: 2.5% 0 5% 2.5%;
+	}	
+
+/****Services layout - responsive*******/
+@media all and (min-width:768px) {
+	.services_flex-container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.services_left{
+		width: 50%;
+		margin: 2.5% 2.5% 5% 0;
+		order: 1;
+	}
+
+	.services_right{
+		width: 50%;
+		margin: 2.5% 0 5% 2.5%;
+		order: 2;
+	}	
 }
 
 /****Footer****/
