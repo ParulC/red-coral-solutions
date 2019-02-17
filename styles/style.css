@@ -8,12 +8,20 @@
 
 .flex-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
+body {
+	font-size: 100%;	
+}
 
 img {
 	max-width: 100%;
+}
+
+h1 {
+	font-size: 2.3vw;
 }
 
 h2 {
@@ -21,13 +29,18 @@ h2 {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	color: #e60000;
-	font-size: 200%;
+	font-size: 3vw;
 }
 
 h3 {
 	text-align: center;
-	font-size: 150%;
+	font-size: 2.5vw;
 }
+
+p {
+	font-size: 1.5vw;
+}
+
 
 /****Wrapper****/
 .wrapper {
@@ -41,32 +54,23 @@ nav {
 	padding: 5px 2% 5px 2%; 
 	background-color: #e6eeff;
 	background-color: white;
+	height: 12vh;
+	font-size: 1.8vw;
 }
 
-.logo a {
+
+nav a {
 	text-decoration: none;
 	color: #e60000;
-	font-size: 1.2rem;
 }
 
-.menu ul {
-	padding: 0;
-}
 
-.menu ul li {
-	list-style: none;
-}
-
-.menu ul li a {
-	text-decoration: none;
-	padding: 10px;
-}
 
 /****Hero Image****/
 .heroImage{
 /*Hero image set as background*/
 	background: url(../images/rcs_hero_image.jpg);
-	height: 80vh;
+	height: 70vh;
 	max-width: 100%;
    	background-size: cover;
 
@@ -79,33 +83,39 @@ nav {
 	text-align: center; 
 }
 
+@media all and (max-width:768px) {
+	.heroImage{
+		height: 50vh;
+	}
+}
+
 
 .heroText h2 {
 	color: white;
-	line-height: 200%;
-	font-size: 250%;
+	text-align: center;
 	text-shadow: 1px 1px 2px black;
+	font-size: 3vw;
 }
 
 
 .heroImageButton {
-	width: 30%;
+	width: 20vw;
 
 	/*Padding and margins*/
 	margin: 0 auto;
 	padding: 2.5% 5% 2.5% 5%;
 
 	/*Border*/
-	border: 3px solid black;
+	border: 2px solid #001a33;
 
 	/*Background color*/
-	background-color: #F6F6F6;
-	opacity: 0.9;
+	background-color: #0069cc;
 
 	/*Text style*/
-	color: black;
+	color: white;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.6vw;
+    font-weight: bold;
 }
 
 /****Section layout****/
@@ -143,6 +153,7 @@ footer {
 	color: #D1D4D7;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	font-size: 1.4vw;
 }
 
 .footer-left {
@@ -191,12 +202,22 @@ footer .fa {
 }
 
 .field {
-  margin: 1em 0;
-  max-width: 100%;
+  	margin: 1em 0;
+  	max-width: 100%;
+	font-size: 3.5vh;
 }
 
 .button-row {
 	text-align: center;
+}
+
+#form-wrapper {
+	background-color: #f2f2f2;
+	border-radius: 3%;
+}
+
+#form-wrapper h2 {
+	color: black;
 }
 
 #form-wrapper p {
@@ -206,7 +227,7 @@ footer .fa {
 
 label {
 	width: 20%;
-  color: #404040;
+	color: #404040;
 }
 
 input {
