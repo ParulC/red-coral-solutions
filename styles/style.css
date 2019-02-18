@@ -34,7 +34,7 @@ h2 {
 
 h3 {
 	text-align: center;
-	font-size: 2.5vw;
+	font-size: 2vw;
 }
 
 p {
@@ -98,7 +98,7 @@ nav a {
 }
 
 
-.heroImageButton {
+.callOutButton {
 	width: 20vw;
 
 	/*Padding and margins*/
@@ -116,6 +116,7 @@ nav a {
     text-decoration: none;
     font-size: 1.6vw;
     font-weight: bold;
+    text-align: center;
 }
 
 /****Section layout****/
@@ -158,6 +159,7 @@ footer {
 
 .footer-left {
 	width: 50%;
+	flex-direction: column; 
 	padding-right: 5%;
 	padding-left: 5%;
 	margin: auto 0;		
@@ -168,7 +170,14 @@ footer {
 	padding-right: 5%;
 	padding-left: 5%;
 	text-align: right;
-	margin: auto 0;		
+	margin: auto 0;
+	flex-direction: column;
+	justify-content: space-between;		
+}
+
+.footer-right p {
+	margin-top: 0;
+	margin-bottom: 10%;
 }
 
 .footer-full {
@@ -178,21 +187,7 @@ footer {
 	text-align: center;
 }
 
-footer a {
-	color: white;
-	margin-left: 2%;
-	vertical-align: middle;	
-}
 
-footer .fa {
-	background: #404040;
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 40px;
-}
 
 /****Contact Form*****/
 #form-wrapper {
