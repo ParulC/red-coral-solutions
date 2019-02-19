@@ -126,6 +126,10 @@ nav a {
 
 	.services_right{
 		margin: 2.5% 0 5% 2.5%;
+	}
+
+	.services {
+		line-height: 1.6;
 	}	
 
 /****Services layout - responsive*******/
