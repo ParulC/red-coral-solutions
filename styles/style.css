@@ -13,7 +13,11 @@
 }
 
 body {
-	font-size: 100%;	
+	font-size: 1vw;	
+}
+
+p {
+	font-size: 1.2vw;
 }
 
 img {
@@ -37,9 +41,7 @@ h3 {
 	font-size: 2vw;
 }
 
-p {
-	font-size: 1.5vw;
-}
+
 
 
 /****Wrapper****/
@@ -55,7 +57,7 @@ nav {
 	background-color: #e6eeff;
 	background-color: white;
 	height: 12vh;
-	font-size: 1.8vw;
+	font-size: 1.5vw;
 }
 
 
@@ -193,27 +195,23 @@ footer {
 
 
 
-/****Contact Form*****/
+/****Contact Us Form*****/
 #form-wrapper {
 	width: 75%;
 	padding: 1em;
-	margin: 1em auto;
+	margin: 0 auto;
 }
 
 .field {
   	margin: 1em 0;
   	max-width: 100%;
-	font-size: 3.5vh;
+	font-size: 130%;
 }
 
 .button-row {
 	text-align: center;
 }
 
-#form-wrapper {
-	background-color: #f2f2f2;
-	border-radius: 3%;
-}
 
 #form-wrapper h2 {
 	color: black;
@@ -224,13 +222,26 @@ footer {
 	font-size: 1.5em;
 }
 
+form {
+	margin: 5em 0;
+}
+
+
+.form_flex_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.form_main {
+	background-color: #ccccff;
+}
+
 label {
-	width: 20%;
-	color: #404040;
+	margin-bottom: 0.3em;
 }
 
 input {
-  width: 80%;
   padding: 0.5em 0.5em;
   font-size: 1.2em;
   border-radius: 3px;
@@ -238,7 +249,6 @@ input {
 }
 
 textarea {
-  width: 80%;
   height: 200px;
   padding: 0.5em 0.5em;
   font-size: 1.2em;
