@@ -12,7 +12,6 @@
   justify-content: space-between;
 }
 
-
 body {
 	font-size: 1vw;	
 }
@@ -30,6 +29,7 @@ p {
 
 img {
 	max-width: 100%;
+	max-height: 100%;
 }
 
 h1 {
@@ -70,26 +70,48 @@ h3 {
 /****Navigation Bar****/
 nav {
 	padding: 0.25% 2%; 
-	background-color: #e6eeff;
-	background-color: white;
 	font-size: 1.5vw;
 }
 
-
-nav a {
-	text-decoration: none;
-	color: #e60000;
-}
 
 /*Nav bar on mobile - making text and padding bigger*/
 @media only screen and (max-device-width: 480px) {
 	nav {
 		padding: 3% 2.5%; 
 		font-size: 2.5vw;
-	}	
+	}		
 }
 
+.menu a {
+	text-decoration: none;
+	color: #e60000;
+}
 
+.menu ul {
+	padding: 0;
+}
+
+.menu ul li {
+	list-style: none;
+}
+
+.menu ul a {
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+}
+
+/*Setting logo height*/
+nav img {
+	height: 10vh;
+}
+
+/*Making logo height smaller for mobile*/
+@media only screen and (max-device-width: 480px) {
+	nav img {
+		height: 6vh;
+	}
+}
 
 /****Hero Image****/
 .heroImage{
@@ -118,8 +140,8 @@ nav a {
 .heroText h2 {
 	color: white;
 	text-align: center;
-	text-shadow: 1px 1px 2px black;
-	font-size: 3vw;
+	text-shadow: 4px 4px 10px black;
+	font-size: 3.2vw;
 	padding-bottom: 1vw;
 }
 
@@ -322,6 +344,31 @@ button:active {
 		font-size: 300%;
 	}
 }
+
+/**Portfolio Page**/
+.portfolio-wrapper {
+	width: 95%;
+	padding: 1em;
+	margin: 0 auto;
+/*	border: 2px solid black;*/
+	text-align: center;
+}
+
+/*.portfolio-wrapper p {
+	text-align: 
+}*/
+
+.portfolio_row {
+	display: flex;
+/*	max-width: 100%;*/
+}
+
+.portfolio_img {
+	padding: 2.5%;
+}
+
+
+
 /***End of Styling for mobile Contact us styling****/
 
 /*Sticky Footer Code*/
@@ -340,3 +387,5 @@ main {
   flex: 1;
 }
 /*End of Sticky Footer Code*/
+
+
