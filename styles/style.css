@@ -12,6 +12,12 @@
   justify-content: space-between;
 }
 
+.flex-container-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
 body {
 	font-size: 1vw;	
 }
@@ -272,13 +278,6 @@ form {
 	margin: 5em 0;
 }
 
-
-.form_flex_container {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-}
-
 .form_main {
 	background-color: #ECECEE;
 }
@@ -350,24 +349,41 @@ button:active {
 	width: 95%;
 	padding: 1em;
 	margin: 0 auto;
-/*	border: 2px solid black;*/
 	text-align: center;
 }
 
-/*.portfolio-wrapper p {
-	text-align: 
-}*/
 
 .portfolio_row {
 	display: flex;
-/*	max-width: 100%;*/
 }
 
 .portfolio_img {
 	padding: 2.5%;
 }
 
+/*Styling for button to visit a portfolio site*/
+/*.visitSiteButton {
+	display: block;
+	width: 20vw;
+	margin: 2% auto;
+	padding: 1.5% 3%;
 
+	border: 2px solid #002266;
+
+	background-color: #0069cc;
+
+	color: white;
+    text-decoration: none;
+    font-size: 1.6vw;
+    font-weight: bold;
+    text-align: center;
+
+    text-shadow: 2px 2px 3px black;
+}
+
+.visitSiteButton:hover {
+	background-color: #003566;	
+}*/
 
 /***End of Styling for mobile Contact us styling****/
 
