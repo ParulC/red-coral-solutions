@@ -171,6 +171,9 @@ nav img {
     font-size: 1.6vw;
     font-weight: bold;
     text-align: center;
+
+    /*Rounded corners*/
+    border-radius: 20px;
 }
 
 /****Section layout****/
